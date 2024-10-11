@@ -11,6 +11,14 @@ st.title("Predicción de Precios de Viviendas con respecto al Área")
 # Ingresar datos de entrada
 st.header("Ingrese las características de la vivienda")
 
+st.markdown(
+    """
+    ### Desarrollador David Vasquez
+    - [Instagram](https://www.instagram.com/lazojdavid)
+    - [GitHub](https://github.com/lazojdavid)
+    """
+)
+
 # Campos de entrada
 median_income = st.number_input("Ingreso medio del área", min_value=0.0)
 inland = st.selectbox("¿Está cerca a la costa?", options=["Sí", "No"])
